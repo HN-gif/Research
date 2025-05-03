@@ -1,7 +1,7 @@
 import time
 import numpy as np
 import pyaudio
-from pysoundtouch import SoundTouch
+from pysoundtouch.pysoundtouch import SoundTouch
 
 # ── 設定 ──
 RATE       = 44100        # サンプリングレート(Hz)
